@@ -206,7 +206,7 @@ button:focus{
 
    font-weight: 500;
 
-   color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
 
    font-size: 13px;
 
@@ -343,7 +343,7 @@ ul.sub-menu.has-transitions.is-visible.open .back{
 
 #top-header #cd-main-nav li:after {
 
-   background: #fff;
+   background: #d0183d;
 
    height: 12px;
 
@@ -357,7 +357,7 @@ ul.sub-menu.has-transitions.is-visible.open .back{
 
 #top-header #cd-main-nav li:before {
 
-   background: #f25421;
+   background: #cc1939;
 
    height: 4px;
 
@@ -377,7 +377,7 @@ ul.sub-menu.has-transitions.is-visible.open .back{
 
 #top-header #cd-main-nav li a:hover{
 
-    color: #f25421;
+   color: #be192c;
 
 }
 
@@ -1702,7 +1702,19 @@ figure.video-bg-sec figcaption .btn-primary:active{
    padding: 50px 0;
 
 }
+#our-conference-sec .mission-vision{
 
+   /* background:url(../images/why-choos-us-bg.jpg) no-repeat; */
+   background: #f3f3f3;
+   background-size: cover;
+
+   display: block;
+
+   min-height: 228px;
+
+   padding: 50px 0;
+
+}
 .white-heading{
 
    color: #fff;
