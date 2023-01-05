@@ -1,7 +1,5 @@
 /*------------------------------------------------------------------ 
 
-[Master Stylesheet] Project: Event Premium
-
 -------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------ 
@@ -120,7 +118,7 @@ hr {
 
    width: 60px;
 
-   border-top: 4px solid #f25420;
+   border-top: 4px solid #2E3094;
 
    margin: 15px 0;
 
@@ -343,7 +341,7 @@ ul.sub-menu.has-transitions.is-visible.open .back{
 
 #top-header #cd-main-nav li:after {
 
-   background: #d0183d;
+   background: rgb(57, 178, 74);
 
    height: 12px;
 
@@ -357,7 +355,7 @@ ul.sub-menu.has-transitions.is-visible.open .back{
 
 #top-header #cd-main-nav li:before {
 
-   background: #cc1939;
+   background: rgb(57, 178, 74);
 
    height: 4px;
 
@@ -377,7 +375,7 @@ ul.sub-menu.has-transitions.is-visible.open .back{
 
 #top-header #cd-main-nav li a:hover{
 
-   color: #be192c;
+   color: rgb(57, 178, 74);
 
 }
 
@@ -471,7 +469,7 @@ label.error{
 
     font-weight: 500;
 
-    color: #f25421;
+    color: #2E3094;
 
     text-decoration: none;
 
@@ -575,7 +573,7 @@ label.error{
 
 .userform .submit-btn {
 
-   background: #f25421;
+   background: #2E3094;
 
    color: #fff;
 
@@ -607,8 +605,6 @@ label.error{
 
    text-align: center;
 
-   border-bottom: 5px solid #a93b17;
-
    transition: all 0.5s ease;
 
    height: auto;
@@ -617,9 +613,7 @@ label.error{
 
 .userform .submit-btn:hover{
 
-  background: #a93b17; 
-
-  border-bottom: 5px solid #f25421; 
+  background: #12148f; 
 
 }
 
@@ -721,7 +715,7 @@ display: block;
 
    border-radius: 50%;
 
-   background:  #f25421;
+   background:  #2E3094;
 
 
 
@@ -773,7 +767,7 @@ display: block;
 
    border-radius: 50%;
 
-   background:  #f25421;
+   background:  #2E3094;
 
 
 
@@ -867,7 +861,7 @@ span.help-block {
 
    font-family: 'Oswald', sans-serif;
 
-   background: #f25421;
+   background: #2E3094;
 
    text-transform: uppercase;
 
@@ -959,7 +953,7 @@ span.help-block {
 
     font-weight: bold;
 
-    color: #f25421;
+    color: rgb(57, 178, 74);
 
     font-family: 'Oswald', sans-serif;
 
@@ -1017,7 +1011,7 @@ span.help-block {
 
 .social-icons li a:hover{
 
-    color: #f25421;
+    color: #2E3094;
 
 }
 
@@ -1041,7 +1035,7 @@ span.help-block {
 
    content: "";
 
-   background: #f25420;
+   background: #2E3094;
 
    height: 100%;
 
@@ -1317,7 +1311,7 @@ figure.video-bg-sec figcaption .btn-primary:active{
 
    text-transform: uppercase;
 
-   color: #f25421;
+   color: #2E3094;
 
    font-weight: bold;
 
@@ -1373,9 +1367,9 @@ figure.video-bg-sec figcaption .btn-primary:active{
 
 .button--antiman.button--inverted-alt::before {
 
-   border-color: #f25420;
+   border-color: #2E3094;
 
-   background: #ff3e00;
+   background: #2E3094;
 
 }
 
@@ -1383,7 +1377,7 @@ figure.video-bg-sec figcaption .btn-primary:active{
 
    background: transparent;
 
-   border: 2px solid #f25420;
+   border: 2px solid #2E3094;
 
 }
 
@@ -1579,9 +1573,9 @@ figure.video-bg-sec figcaption .btn-primary:active{
 
    font-weight: 400;
 
-   border-top: 1px solid #f08a69;
+   border-top: 1px solid #2E3094;
 
-   border-bottom: 1px solid #f08a69;
+   border-bottom: 1px solid #2E3094;
 
    margin: 25px 0;
 
@@ -1631,7 +1625,7 @@ figure.video-bg-sec figcaption .btn-primary:active{
 
 .speaker-box figcaption .button--antiman.button--inverted-alt:hover {
 
-   color: #f25420;
+   color: #2E3094;
 
 }
 
@@ -1723,7 +1717,7 @@ figure.video-bg-sec figcaption .btn-primary:active{
 
 .white-heading hr{
 
-   border-top: 4px solid #f3ae96;
+   border-top: 4px solid #2E3094;
 
 }
 
@@ -1841,7 +1835,7 @@ figure.video-bg-sec figcaption .btn-primary:active{
 
    font-size: 24px;
 
-   color: #f25421;
+   color: #2E3094;
 
    text-align: center;
 
@@ -1977,7 +1971,7 @@ figure.video-bg-sec figcaption .btn-primary:active{
 
    color: #ffffff;
 
-   background-color: #f25421;
+   background-color: #2E3094;
 
    height: 30px;
 
@@ -2007,7 +2001,7 @@ figure.video-bg-sec figcaption .btn-primary:active{
 
 .event-schedule:hover{
 
-    border: 1px solid #f25421;
+    border: 1px solid #2E3094;
 
 }
 
@@ -2051,7 +2045,7 @@ figure.video-bg-sec figcaption .btn-primary:active{
 
    color: #ffffff;
 
-   background-color: #f25421;
+   background-color: #2E3094;
 
    height: 30px;
 
@@ -2091,7 +2085,7 @@ figure.video-bg-sec figcaption .btn-primary:active{
 
 .event-info i{
 
-   color: #f25421;
+   color: #2E3094;
 
    margin-right:10px;
 
@@ -2113,7 +2107,7 @@ figure.video-bg-sec figcaption .btn-primary:active{
 
 ul.nav.nav-pills li button a{
 
-   background-color: #f25421;
+   background-color: #2E3094;
 
    border: none;
 
@@ -2125,9 +2119,9 @@ ul.nav.nav-pills li button a{
 
    transition: 0.5s;
 
-   border-top: 8px solid #f25421;
+   border-top: 8px solid #2E3094;
 
-   border-right: 1px solid #f5764d;
+   border-right: 1px solid #2E3094;
 
 }
 
@@ -2135,7 +2129,7 @@ ul.nav.nav-pills li.active button a{
 
    background-color: #ffffff;
 
-   color: #f25421;
+   color: #2E3094;
 
    border-right: 1px solid #ffffff;
 
@@ -2143,7 +2137,7 @@ ul.nav.nav-pills li.active button a{
 
 ul.nav.nav-pills li.active button a span{
 
-   color: #f25421;
+   color: #2E3094;
 
 }
 
@@ -2223,7 +2217,7 @@ a.tab-button {
 
    font-size: 16px;
 
-   color: #f25421;
+   color: #2E3094;
 
    font-weight: 700;
 
@@ -2237,7 +2231,7 @@ a.tab-button {
 
 ul.nav.nav-tabs li.active a.tab-button {
 
-   background-color: #f25421;
+   background-color: #2E3094;
 
    color: #ffffff;
 
@@ -2245,7 +2239,7 @@ ul.nav.nav-tabs li.active a.tab-button {
 
 ul.nav.nav-pills li.active a.tab-button {
 
-   background-color: #f25421;
+   background-color: #2E3094;
 
    color: #ffffff;
 
@@ -2303,7 +2297,7 @@ ul.nav.nav-pills li.active a.tab-button {
 
 .what-client-says-col{
 
-   background: #e15325;
+   background: #2E3094;
 
    color: #fff;
 
@@ -2431,7 +2425,7 @@ ul.nav.nav-pills li.active a.tab-button {
 
 .what-client-says-inn .owl-nav button:hover{
 
-   color: #e35223 !important;
+   color: #2E3094 !important;
 
    border: none !important;
 
@@ -2483,7 +2477,7 @@ ul.nav.nav-pills li.active a.tab-button {
 
    padding: 135px 0;
 
-   background-color: #f25421
+   background-color: #2E3094;
 
 }
 
@@ -2705,7 +2699,7 @@ ul.nav.nav-pills li.active a.tab-button {
 
 .eventpackage p.block-title {
 
-   color: #f25421
+   color: #2E3094;
 
 }
 
@@ -2795,7 +2789,7 @@ ul.nav.nav-pills li.active a.tab-button {
 
 .eventpackage .event-priceing .best-offer {
 
-   background: #f25421;
+   background: #2E3094;
 
    left: 0;
 
@@ -2829,7 +2823,7 @@ ul.nav.nav-pills li.active a.tab-button {
 
 .eventpackage .event-priceing .plan-details li i {
 
-   color: #f25421
+   color: #2E3094;
 
 }
 
@@ -3057,7 +3051,7 @@ ul.nav.nav-pills li.active a.tab-button {
 
 .sponsors-bg .owl-dots .owl-dot.active span{
 
-   background: #f25421;
+   background: #2E3094;
 
 }
 
@@ -3475,7 +3469,7 @@ right: -50px;
 
 .news-slider .news-block .date{
 
-   background: #f25421;
+   background: #2E3094;
 
    color: #fff;
 
@@ -3533,7 +3527,7 @@ right: -50px;
 
 .news-slider .news-block figcaption .more{
 
-   color: #ff3e00;
+   color: #2E3094;
 
    font-size: 14px;
 
@@ -3571,7 +3565,7 @@ right: -50px;
 
 .news-slider .news-block:hover{
 
-   border: 1px solid #ff3e00;
+   border: 1px solid #2E3094;
 
 }
 
@@ -3617,7 +3611,7 @@ right: -50px;
 
 .newslatter-bg{
 
-   background-color: #f25421;
+   background-color: #2E3094;
 
 }
 
@@ -3673,7 +3667,7 @@ right: -50px;
 
 .newslatter-form form.active i{
 
-   color: #f25421;
+   color: #2E3094;
 
 }
 
@@ -3743,7 +3737,7 @@ right: -50px;
 
    padding:16px 65px;
 
-       background-color: #a93b17;
+       background-color: #2E3094;
 
 }
 
@@ -3785,7 +3779,7 @@ right: -50px;
 
    text-transform: uppercase;
 
-   color: #f25421;
+   color: #2E3094;
 
    font-weight: bold;
 
@@ -3819,7 +3813,7 @@ right: -50px;
 
    left: 90px;
 
-   background-color: #f25421;
+   background-color: #2E3094;
 
 }
 
@@ -3887,7 +3881,7 @@ right: -50px;
 
    background-color: white;
 
-   color:  #f25421;
+   color:  #2E3094;
 
    position: relative;
 
@@ -3921,7 +3915,7 @@ right: -50px;
 
    background-color: white;
 
-   color:  #f25421;
+   color:  #2E3094;
 
    position: relative;
 
@@ -4005,7 +3999,7 @@ right: -50px;
 
 .bottom-social a:hover {
 
-   color: #f25421;
+   color: #2E3094;
 
    text-decoration: none;
 
@@ -4041,7 +4035,7 @@ right: -50px;
 
 .footer-top {
 
-   background: #f25421;
+   background: #2E3094;
 
    padding: 30px 0;
 
@@ -4105,7 +4099,7 @@ right: -50px;
 
    text-align: center;
 
-   color: #f25421;
+   color: #2E3094;
 
    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -4119,13 +4113,13 @@ right: -50px;
 
 .footer-bottom a {
 
-   color: #f25421;
+   color: #2E3094;
 
 }
 
 .more_link{
 
-   color: #f25420;
+   color: #2E3094;
 
    font-size: 14px;
 
@@ -4477,7 +4471,7 @@ right: -50px;
 
    padding: 2px 8px !important;
 
-   background: #f25421;
+   background: #2E3094;
 
    border-radius: 0px;
 
@@ -5385,7 +5379,7 @@ ul.nav.nav-tabs, ul.nav.nav-pills {
 
    padding: 2px 8px !important;
 
-   background: #f25421;
+   background: #2E3094;
 
    border-radius: 0px;
 
@@ -5423,7 +5417,7 @@ figure.video-bg-sec:hover > img {
 
    padding: 2px 8px !important;
 
-   background: #f25421;
+   background: #2E3094;
 
    border-radius: 0px;
 
