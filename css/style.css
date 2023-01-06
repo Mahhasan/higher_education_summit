@@ -1105,7 +1105,7 @@ figure.video-bg-sec figcaption p {
 
    position: absolute;
 
-   text-decoration: underline;
+   text-decoration: none;
 
    left: 0;
 
@@ -1685,7 +1685,8 @@ figure.video-bg-sec figcaption .btn-primary:active{
 
 #our-conference-sec .conference-heading-bg{
 
-   background:url(../images/why-choos-us-bg.jpg) no-repeat;
+   /* background:url(../images/why-choos-us-bg.jpg) no-repeat; */
+   background: rgb(57, 178, 74);
 
    background-size: cover;
 
@@ -2859,7 +2860,8 @@ ul.nav.nav-pills li.active a.tab-button {
 
 #sponsors-sec .sponsors-heading-bg{
 
-   background:url(../images/_39.jpg) no-repeat;
+   /* background:url(../images/_39.jpg) no-repeat; */
+   background: rgb(57, 178, 74);
 
    background-size: cover;
 
@@ -3087,7 +3089,8 @@ ul.nav.nav-pills li.active a.tab-button {
 
 .previous-event-heading-bg .heading-col{
 
-   background: url(../images/prev-event-title-bg.jpg) no-repeat;
+   /* background: url(../images/prev-event-title-bg.jpg) no-repeat; */
+   background: rgb(57, 178, 74) !important;
 
    background-size: cover;
 
@@ -3107,7 +3110,8 @@ ul.nav.nav-pills li.active a.tab-button {
 
    content: "";
 
-   background: rgba(242,84,33,0.9);
+   /* background: rgba(242,84,33,0.9); */
+   background: rgb(57, 178, 74) !important;
 
    position: absolute;
 
@@ -4107,7 +4111,7 @@ right: -50px;
 
 .copytight {
 
-   font-size: 14px;
+   font-size: 18px;
 
 }
 
@@ -4469,7 +4473,7 @@ right: -50px;
 
 #upcoming-event-sec .owl-carousel .owl-nav button.owl-next, #upcoming-event-sec .owl-carousel .owl-nav button.owl-prev {
 
-   padding: 2px 8px !important;
+   padding: 2px px !important;
 
    background: #2E3094;
 
@@ -6229,5 +6233,8 @@ a.tab-button {
 
    }
 
+}
+.mb-90{
+   margin-bottom: 90px;
 }
 
