@@ -6412,6 +6412,18 @@ a.tab-button {
 .carousel-inner .carousel-item-left{ 
  transform: translateX(0);
 }
+.bottom-reg-form{
+   
+   background: url(../images/main-banner.jpg) no-repeat;
+
+   background-size: cover;
+
+   display: block;
+
+   padding-top: 86px;
+
+       background-attachment: fixed;
+}
 
 
 
