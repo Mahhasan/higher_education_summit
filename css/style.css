@@ -2423,7 +2423,6 @@ ul.nav.nav-pills li.active a.tab-button {
 }
 
 
-
 #what-people-says .testimonial-heading-bg hr{
 
    border-top: 4px solid rgba(255,255,255,0.5);
@@ -2440,13 +2439,14 @@ ul.nav.nav-pills li.active a.tab-button {
 
    margin-top: 30px;
 
+
 }
 
 
 
 .what-client-says-inn{
 
-   padding: 44px 32px;
+   padding: 36px 32px;
 
 }
 
@@ -2519,6 +2519,9 @@ ul.nav.nav-pills li.active a.tab-button {
    font-size: 18px;
 
    line-height: 34px;
+   text-align:justify;
+   word-spacing:-2px;
+
 
 }
 
@@ -4247,7 +4250,7 @@ right: -50px;
 
 .copytight {
 
-   font-size: 18px;
+   font-size: 16px;
 
 }
 
