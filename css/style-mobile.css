@@ -86,6 +86,110 @@ Modules - reusable parts of our design
     }
     
   }
+
+  @media only screen and (min-width: 200px) and (max-width: 576px){
+    figure.video-bg-sec figcaption {
+
+      position: absolute;
+   
+      top: 60%;
+   
+      left: 0;
+   
+      right: 0;
+   
+      text-align: center;
+   
+   }
+
+  }
+
+  @media only screen and (min-width: 577px) and (max-width: 991px){
+    figure.video-bg-sec figcaption {
+
+      position: absolute;
+   
+      top: 63%;
+   
+      left: 0;
+   
+      right: 0;
+   
+      text-align: center;
+   
+   }
+
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1198px){
+    figure.video-bg-sec figcaption {
+
+      position: absolute;
+   
+      top: 58%;
+   
+      left: 0;
+   
+      right: 0;
+   
+      text-align: center;
+   
+   }
+
+  }
+
+  /* for fig02 */
+
+  @media only screen and (min-width: 200px) and (max-width: 576px){
+    figure.video-bg-sec-2 figcaption {
+
+      position: absolute;
+   
+      top:28%;
+   
+      left: 0;
+   
+      right: 0;
+   
+      text-align: center;
+   
+   }
+
+  }
+
+  @media only screen and (min-width: 577px) and (max-width: 991px){
+    figure.video-bg-sec-2 figcaption {
+
+      position: absolute;
+   
+      top: 22%;
+   
+      left: 0;
+   
+      right: 0;
+   
+      text-align: center;
+   
+   }
+
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1198px){
+    figure.video-bg-sec-2 figcaption {
+
+      position: absolute;
+   
+      top: 24%;
+   
+      left: 0;
+   
+      right: 0;
+   
+      text-align: center;
+   
+   }
+
+  }
+
+
   @media only screen and (min-width: 992px) and (max-width: 1024px){
   #cd-main-nav li a{
         padding: 27px 0px;

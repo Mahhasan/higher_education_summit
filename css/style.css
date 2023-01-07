@@ -1035,7 +1035,7 @@ span.help-block {
 
    content: "";
 
-   background: #2E3094;
+   background: #f25421;
 
    height: 100%;
 
@@ -1079,7 +1079,7 @@ figure.video-bg-sec figcaption {
 
    position: absolute;
 
-   top: 35%;
+   top: 53%;
 
    left: 0;
 
@@ -1166,6 +1166,134 @@ figure.video-bg-sec figcaption .btn-primary:focus,
 figure.video-bg-sec figcaption .btn-primary:active:focus,
 
 figure.video-bg-sec figcaption .btn-primary:active{
+
+   outline: 0;
+
+   box-shadow: 0 0 0 11px rgba(255, 255, 255, 0.50) !important;
+
+   background-color: #fff !important;
+
+
+
+}
+
+/* for fig01 */
+
+figure.video-bg-sec-2 {
+
+   overflow: hidden;
+
+}
+
+figure.video-bg-sec-2:hover > img{
+
+        transform: scale(1.6) rotate(10deg);
+
+}
+
+figure.video-bg-sec-2 img{
+
+   display: block;
+
+    transition: transform 2s;
+
+   width: 100%;
+
+   position: relative;
+
+}
+
+figure.video-bg-sec-2 figcaption {
+
+   position: absolute;
+
+   top: 30%;
+
+   left: 0;
+
+   right: 0;
+
+   text-align: center;
+
+}
+
+figure.video-bg-sec-2 figcaption p {
+
+   color: #fff;
+
+   /* border-bottom: 1px solid #c0c0bf; */
+
+   display: inline-block;
+
+   font-size: 16px;
+
+   line-height: 20px;
+
+   margin-top: 35px;
+
+   position: absolute;
+
+   text-decoration: none;
+
+   left: 0;
+
+   right: 0;
+
+   bottom: -50px;
+
+}
+
+figure.video-bg-sec-2 figcaption img{
+
+   width: auto;
+
+   left: 4px;
+
+   margin: 0 auto;
+
+}
+
+figure.video-bg-sec-2 figcaption .btn-primary {
+
+   color: #fff;
+
+   background-color: #ffffff;
+
+   box-shadow: 0 0 0 11px rgba(255, 255, 255, 0.50);
+
+   height: 100px;
+
+   border: 0;
+
+   width: 100px;
+
+   display: block;
+
+   margin: 0 auto;
+
+   padding: 0;
+
+   border-radius: 50%;
+
+}
+
+.fade.show{
+
+   background-color: rgba(0, 0, 0,0.8);
+
+}
+
+/*figure.video-bg-sec figcaption .btn-primary:hover{
+
+  animate css 
+
+}*/
+
+figure.video-bg-sec-2 figcaption .btn-primary:focus,
+
+figure.video-bg-sec-2 figcaption .btn-primary:active:focus,
+
+figure.video-bg-sec-2 figcaption .btn-primary:active{
 
    outline: 0;
 
@@ -2106,9 +2234,9 @@ figure.video-bg-sec figcaption .btn-primary:active{
 
 }  
 
-ul.nav.nav-pills li button a{
+.schedule-card{
 
-   background-color: #2E3094;
+   background-color: #f25421;
 
    border: none;
 
@@ -2120,13 +2248,21 @@ ul.nav.nav-pills li button a{
 
    transition: 0.5s;
 
-   border-top: 8px solid #2E3094;
 
-   border-right: 1px solid #2E3094;
+}
+.schedule-card a{
+   font-size: large;
+   font-weight: 700;
+   color: #ffffff;
 
 }
 
-ul.nav.nav-pills li.active button a{
+.schedule-card a:hover{
+   text-decoration: none;
+}
+
+
+/* ul.nav.nav-pills li.active button a{
 
    background-color: #ffffff;
 
@@ -2180,7 +2316,7 @@ ul.nav.nav-pills li button a span{
 
   padding: 0;
 
-  }
+  } */
 
 .tab-content-head {
 
@@ -2298,7 +2434,7 @@ ul.nav.nav-pills li.active a.tab-button {
 
 .what-client-says-col{
 
-   background: #2E3094;
+   background: #f25421;
 
    color: #fff;
 
@@ -6237,4 +6373,42 @@ a.tab-button {
 .mb-90{
    margin-bottom: 90px;
 }
+
+/* customCss */
+
+@media (max-width: 768px) {
+   .carousel-inner .carousel-item > div {
+       display: none;
+   }
+   .carousel-inner .carousel-item > div:first-child {
+       display: block;
+   }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+   display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+   
+   .carousel-inner .carousel-item-right.active,
+   .carousel-inner .carousel-item-next {
+     transform: translateX(33.333%);
+   }
+   
+   .carousel-inner .carousel-item-left.active, 
+   .carousel-inner .carousel-item-prev {
+     transform: translateX(-33.333%);
+   }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+ transform: translateX(0);
+}
+
+
 
