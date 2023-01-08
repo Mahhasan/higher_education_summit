@@ -88,50 +88,41 @@ Modules - reusable parts of our design
   }
 
   @media only screen and (min-width: 200px) and (max-width: 576px){
-    figure.video-bg-sec figcaption {
+    figure.video-bg-sec iframe {
 
-      position: absolute;
-   
-      top: 60%;
-   
-      left: 0;
-   
-      right: 0;
-   
-      text-align: center;
+      height: 416px;
    
    }
 
   }
 
-  @media only screen and (min-width: 577px) and (max-width: 991px){
-    figure.video-bg-sec figcaption {
+  @media only screen and (min-width: 577px) and (max-width: 767px){
+    figure.video-bg-sec iframe {
 
-      position: absolute;
-   
-      top: 63%;
-   
-      left: 0;
-   
-      right: 0;
-   
-      text-align: center;
+      height: 416px;
    
    }
 
   }
-  @media only screen and (min-width: 992px) and (max-width: 1198px){
-    figure.video-bg-sec figcaption {
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+    figure.video-bg-sec iframe {
 
-      position: absolute;
+      height: 235px;
    
-      top: 58%;
+   }
+
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px){
+    figure.video-bg-sec iframe {
+
+      height: 320px;
    
-      left: 0;
-   
-      right: 0;
-   
-      text-align: center;
+   }
+  }
+   @media only screen and (min-width: 1200px){
+    figure.video-bg-sec iframe {
+
+      height: 384px;
    
    }
 
