@@ -2512,9 +2512,9 @@ ul.nav.nav-pills li.active a.tab-button {
 
 .what-client-says-inn .user-info figure p{
 
-   margin-top:32px;
+   margin-top: 24px;
 
-   padding-bottom: 40px;
+   padding-bottom: 24px;
 
    font-size: 18px;
 
@@ -6374,7 +6374,7 @@ a.tab-button {
 
 }
 .mb-90{
-   margin-bottom: 90px;
+   margin-bottom: 75px;
 }
 
 /* customCss */
