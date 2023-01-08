@@ -91,7 +91,7 @@ jQuery(document).ready(function($) {
 
        var austDay = new Date();
 
-       austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+       austDay = new Date(austDay.getFullYear() + 0, 1 - 1, 15);
 
        $('#defaultCountdown').countdown({
 
